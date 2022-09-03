@@ -1,0 +1,19 @@
+{
+    "extends": "@tsconfig/recommended/tsconfig.json",
+    "compilerOptions": {
+        "outDir": "build",
+        "sourceMap": true,
+        "module": "commonjs",
+        "moduleResolution": "node",
+        "isolatedModules": true,
+        // "types": [
+        //     "vitest/importMeta"
+        // ],
+    
+        
+    },
+    "include": ["./sources/**/*"],
+    "exclude": ["**/*.tests.*", "**/__mocks__/*", "**/__tests__/*"]
+}
+
+

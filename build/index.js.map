@@ -1,0 +1,7 @@
+{
+  "version": 3,
+  "sources": ["../sources/add.ts", "../sources/index.ts"],
+  "sourcesContent": ["\r\nexport function add(...numbers: Array<number>) {\r\n    let total: number = 0\r\n    let current_index: number = 0\r\n    for (; current_index < numbers.length;) {\r\n        let current_number: number = numbers[current_index]\r\n        total += current_number\r\n        current_index += 1\r\n    }\r\n    return total\r\n}\r\n", "import { add } from './add'\r\n\r\nconsole.log(add(1, 2, 3))\r\n"],
+  "mappings": "aACO,SAASA,KAAOC,EAAwB,CAC3C,IAAIC,EAAgB,EAChBC,EAAwB,EAC5B,KAAOA,EAAgBF,EAAQ,QAE3BC,GAD6BD,EAAQE,GAErCA,GAAiB,EAErB,OAAOD,CACX,CCRA,QAAQ,IAAIE,EAAI,EAAG,EAAG,CAAC,CAAC",
+  "names": ["add", "numbers", "total", "current_index", "add"]
+}
